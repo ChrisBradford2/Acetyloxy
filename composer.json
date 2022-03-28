@@ -14,7 +14,7 @@
     },
     "scripts": {
         "test": "phpunit",
-        "smell": "phpcs php/. -p --colors",
+        "smell": "phpcs --ignore=/node_modules/* php/. -p --colors",
         "fix-smell": "phpcbf php/.",
         "acetyloxy": "echo 'et la vie vous souris !"
     },

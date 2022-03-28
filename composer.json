@@ -1,0 +1,35 @@
+{
+    "name": "noble-coding/acetyloxy",
+    "description": "No description yet",
+    "type": "project",
+    "require": {
+        "squizlabs/php_codesniffer": "^3.6",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NobleCoding\\Acetyloxy\\": "php/src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "smell": "phpcs . -p --colors",
+        "acetyloxy": "echo 'et la vie vous souris !"
+    },
+    "scripts-descriptions": {
+        "test": "Run all tests!",
+        "smell": "Watch your code and print all wrong coding standard.",
+        "acetyloxy": "Just a easter egg."
+    },
+    "authors": [
+        {
+            "name": "Nicolas Barbarisi",
+            "email": "nico.bar2012@gmail.com"
+        },
+        {
+            "name": "Alexandre Kramer",
+            "email": "alexandre.kramer@ynov.com"
+        }
+    ]
+}

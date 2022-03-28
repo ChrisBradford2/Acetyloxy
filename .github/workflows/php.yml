@@ -31,6 +31,9 @@ jobs:
       
     - name: php-codesniffer
       uses: pipeline-components/php-codesniffer@v0.12.3
+      with:
+        # Directory to check
+        directory: php/.
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md

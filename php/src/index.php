@@ -1,7 +1,16 @@
 <?php
-//These are the defined authentication environment in the db service
 
-// The MySQL service named in the docker-compose.yml.
+/**
+ * PHP version 5
+ *
+ * @category Main
+ * @package  Noblecodingacetyloxy
+ * @author   Nicolas Barbarisi <nico.bar2012@gmail.com>
+ * @license  https://github.com/ChrisBradford2/Acetyloxy/blob/main/LICENSE MIT
+ * @link     http://pear.php.net/package/PackageName
+ */
+
+/* The MySQL service named in the docker-compose.yml.*/
 $host = 'db';
 
 // Database use name

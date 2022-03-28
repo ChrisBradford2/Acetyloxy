@@ -14,12 +14,14 @@
     },
     "scripts": {
         "test": "phpunit",
-        "smell": "phpcs . -p --colors",
+        "smell": "phpcs php/. -p --colors",
+        "fix-smell": "phpcbf php/.",
         "acetyloxy": "echo 'et la vie vous souris !"
     },
     "scripts-descriptions": {
         "test": "Run all tests!",
         "smell": "Watch your code and print all wrong coding standard.",
+        "fix-smell": "Help you to fix your smell code.",
         "acetyloxy": "Just a easter egg."
     },
     "authors": [

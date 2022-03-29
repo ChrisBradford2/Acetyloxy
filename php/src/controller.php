@@ -20,12 +20,12 @@
  *
  * PHP version 8
  * 
- * @category MyClass
+ * @category index
  * @package  Noblecodingacetyloxy
  * @author   Nicolas Barbarisi <nico.bar2012@gmail.com>
  * @license  https://github.com/ChrisBradford2/Acetyloxy/blob/main/LICENSE MIT
  * @link     http://www.hashbangcode.com/
- * @return   type mescouilles
+ * @return   type controller
  */   
 function index()
 {

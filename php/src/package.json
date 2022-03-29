@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch assets/scss:assets/css --style compressed"
+    "sass": "sass --watch assets/scss:assets/css --style compressed",
+    "sass-test": "sass assets/scss:assets/css",
+    "stylelint": "npx stylelint \"assets/scss/*.scss\""
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
   },
   "devDependencies": {
     "stylelint": "^14.6.1",
-    "stylelint-config-standard": "^25.0.0"
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^3.0.0"
   }
 }

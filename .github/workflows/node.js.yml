@@ -33,8 +33,8 @@ jobs:
       run: npm install
       working-directory: ./php/src
     - name: Test style
-      run: npm run sass-test
+      run: sass assets/scss:assets/css
       working-directory: ./php/src
     - name: Stylelint
-      run: npm run stylelint
+      run: npx stylelint "assets/scss/*.scss"
       working-directory: ./php/src

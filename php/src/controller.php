@@ -29,7 +29,12 @@
  */   
 function index()
 {
-    include_once 'front/index.php';
+    require_once 'front/index.php';
+}
+
+function login()
+{
+    require_once 'front/login.php';
 }
 
 ?>

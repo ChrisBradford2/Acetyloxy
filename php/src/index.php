@@ -42,6 +42,9 @@ if ($conn->connect_error) {
 }
 if ('/index.php' == $uri) {
     echo index();
+} elseif ('/index.php/login' == $uri)
+{
+    echo login();
 } else {
     echo index();
 }

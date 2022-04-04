@@ -71,4 +71,9 @@ function admin_categories()
 {
     require_once 'admin/categories.php';
 }
+
+function admin_products()
+{
+    require_once 'admin/products.php';
+}
 ?>

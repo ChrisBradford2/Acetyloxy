@@ -59,8 +59,10 @@ if ('/index.php' == $uri) {
 } elseif ('/index.php/register' == $uri)
 {
     echo register();
-}
-elseif ('/index.php/admin/admins' == $uri)
+} elseif ('/index.php/admin/index' == $uri)
+{
+    echo admin_index();
+} elseif ('/index.php/admin/admins' == $uri)
 {
     echo admin_admins();
 } elseif ('/index.php/admin/categories' == $uri)

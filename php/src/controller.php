@@ -47,6 +47,11 @@ function login()
     require_once 'front/login.php';
 }
 
+function register()
+{
+    require_once 'front/register.php';
+}
+
 function panier()
 {
     require_once 'front/panier.php';

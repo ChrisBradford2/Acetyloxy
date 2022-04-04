@@ -57,6 +57,9 @@ elseif ('/index.php/product' == $uri && isset($_GET['id']))
 } elseif ('/index.php/panier' == $uri)
 {
     echo panier();
+} elseif ('/index.php/register' == $uri)
+{
+    echo register();
 } else {
     echo index();
 }

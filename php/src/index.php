@@ -71,6 +71,9 @@ if ('/index.php' == $uri) {
 } elseif ('/index.php/admin/products' == $uri)
 {
     echo admin_products();
+} elseif ('/index.php/admin/users' == $uri)
+{
+    echo admin_users();
 } else {
     echo index();
 }

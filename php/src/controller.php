@@ -76,4 +76,9 @@ function admin_products()
 {
     require_once 'admin/products.php';
 }
+
+function admin_users()
+{
+    require_once 'admin/users.php';
+}
 ?>

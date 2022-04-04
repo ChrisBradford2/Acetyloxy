@@ -47,8 +47,7 @@ if ('/index.php' == $uri) {
 {
     $products = get_products();
     echo products($products);
-}
-elseif ('/index.php/product' == $uri && isset($_GET['id']))
+} elseif ('/index.php/product' == $uri && isset($_GET['id']))
 {
     echo product($_GET['id']);
 } elseif ('/index.php/login' == $uri)

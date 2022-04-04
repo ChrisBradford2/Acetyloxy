@@ -36,5 +36,8 @@ function login()
 {
     require_once 'front/login.php';
 }
-
+function panier()
+{
+    require_once 'front/panier.php';
+}
 ?>

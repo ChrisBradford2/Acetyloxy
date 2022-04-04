@@ -45,6 +45,9 @@ if ('/index.php' == $uri) {
 } elseif ('/index.php/login' == $uri)
 {
     echo login();
+} elseif ('/index.php/panier' == $uri)
+{
+    echo panier();
 } else {
     echo index();
 }

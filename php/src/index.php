@@ -10,7 +10,8 @@
  */
 ?>
 
-<?php require_once "controller.php"; ?>
+<?php include_once "model.php"; ?>
+<?php include_once "controller.php"; ?>
 
 
 <?php

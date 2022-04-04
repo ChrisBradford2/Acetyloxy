@@ -63,6 +63,9 @@ if ('/index.php' == $uri) {
 elseif ('/index.php/admin/admins' == $uri)
 {
     echo admin_admins();
+} elseif ('/index.php/admin/categories' == $uri)
+{
+    echo admin_categories();
 } else {
     echo index();
 }

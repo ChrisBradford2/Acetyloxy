@@ -61,4 +61,9 @@ function admin_admins()
 {
     require_once 'admin/admins.php';
 }
+
+function admin_categories()
+{
+    require_once 'admin/categories.php';
+}
 ?>

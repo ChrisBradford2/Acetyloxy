@@ -32,10 +32,21 @@ function index()
     require_once 'front/index.php';
 }
 
+function products($products)
+{
+    require_once 'front/products.php';
+}
+
+function product($id)
+{
+    require_once 'front/product.php';
+}
+
 function login()
 {
     require_once 'front/login.php';
 }
+
 function panier()
 {
     require_once 'front/panier.php';

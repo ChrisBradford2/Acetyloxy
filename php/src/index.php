@@ -42,6 +42,14 @@ if ($conn->connect_error) {
 }
 if ('/index.php' == $uri) {
     echo index();
+} elseif ('/index.php/products' == $uri)
+{
+    $products = get_products();
+    echo products($products);
+}
+elseif ('/index.php/product' == $uri && isset($_GET['id']))
+{
+    echo product($_GET['id']);
 } elseif ('/index.php/login' == $uri)
 {
     echo login();

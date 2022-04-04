@@ -60,6 +60,10 @@ elseif ('/index.php/product' == $uri && isset($_GET['id']))
 } elseif ('/index.php/register' == $uri)
 {
     echo register();
+}
+elseif ('/index.php/admin/admins' == $uri)
+{
+    echo admin_admins();
 } else {
     echo index();
 }

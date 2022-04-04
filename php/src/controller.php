@@ -56,4 +56,9 @@ function panier()
 {
     require_once 'front/panier.php';
 }
+
+function admin_admins()
+{
+    require_once 'admin/admins.php';
+}
 ?>
